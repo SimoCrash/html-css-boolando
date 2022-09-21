@@ -9,21 +9,27 @@ header {
     color: white;
     height: 70px;
     width: 100%;
+    position: fixed;
 }
 
 .container-header {
+    height: 100%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .sex, .symbols, .logo-img {
     list-style: none;
     display: flex;
     flex-direction: row;
-    vertical-align: middle;
 }
 
 .logo {
     height: 25px;
+}
+
+.sex li, .symbols li {
+    padding-right: 1rem;
 }
 
