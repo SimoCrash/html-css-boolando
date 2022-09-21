@@ -61,7 +61,7 @@ main img {
     width: calc(1100px / 3 - 2rem);
 }
 
-.img-1 {
+.image {
     position: relative;
 }
 
@@ -99,6 +99,10 @@ main img {
 
 .brand {
     font-weight: 400;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 .price-red {
