@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/* header */
+
 header {
     background-color: #FF6900;
     color: white;
@@ -33,3 +40,61 @@ header {
     padding-right: 1rem;
 }
 
+
+/* main */
+
+main {
+    margin: auto;
+    max-width: 1100px;
+    padding-top: 100px;
+    display: flex;
+}
+ 
+.container-m-top {
+    display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+    gap: 3rem;
+}
+
+main img {
+    width: calc(1100px / 3 - 2rem);
+}
+
+.img-1 {
+    position: relative;
+    display: flex;
+}
+
+.heart {
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    text-align: center;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+
+.discount {
+    background-color: red;
+    position: absolute;
+    bottom: 35px;
+    left: 0px;
+    text-align: center;
+    font-size: .7em;
+    padding: 5px 10px;
+    color: white;
+    justify-content: flex-start;
+}
+
+.sustainability {
+    background-color: green;
+    position: absolute;
+    bottom: 35px;
+    left: calc(25px + .7em * 4);
+    text-align: center;
+    font-size: .7em;
+    padding: 5px 10px;
+    color: white;
+}
