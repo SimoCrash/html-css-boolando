@@ -17,7 +17,7 @@ header {
     height: 70px;
     width: 100%;
     position: fixed;
-    z-index: 15;
+    z-index: 13;
 }
 
 .container-header {
@@ -66,6 +66,8 @@ main img {
 .image {
     position: relative;
 }
+
+/* footer */
 
 .heart {
     background-color: white;
@@ -148,6 +150,8 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+
+/* hover */
 
 .img-pri {
     z-index: 2;
