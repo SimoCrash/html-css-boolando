@@ -17,6 +17,7 @@ header {
     height: 70px;
     width: 100%;
     position: fixed;
+    z-index: 1;
 }
 
 .container-header {
@@ -50,11 +51,12 @@ main {
     display: flex;
 }
  
-.container-m-top {
+.container-m-top, .container-m-bottom {
     display: flex;
     flex-direction: row;
 	flex-wrap: wrap;
     gap: 3rem;
+    margin-bottom: 70px;
 }
 
 main img {
@@ -111,4 +113,8 @@ main img {
 
 .through {
     text-decoration: line-through;
+}
+
+.bot-sus {
+    left: 0px;
 }
