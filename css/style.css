@@ -3,3 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-color: #FF6900;
+    color: white;
+    height: 70px;
+    width: 100%;
+}
