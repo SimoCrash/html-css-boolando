@@ -63,7 +63,6 @@ main img {
 
 .img-1 {
     position: relative;
-    display: flex;
 }
 
 .heart {
@@ -85,7 +84,6 @@ main img {
     font-size: .7em;
     padding: 5px 10px;
     color: white;
-    justify-content: flex-start;
 }
 
 .sustainability {
@@ -97,4 +95,16 @@ main img {
     font-size: .7em;
     padding: 5px 10px;
     color: white;
+}
+
+.brand {
+    font-weight: 400;
+}
+
+.price-red {
+    color: red;
+}
+
+.through {
+    text-decoration: line-through;
 }
