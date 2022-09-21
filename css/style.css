@@ -17,7 +17,7 @@ header {
     height: 70px;
     width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 15;
 }
 
 .container-header {
@@ -125,7 +125,7 @@ footer {
 }
 
 .container-footer {
-    height: 150px;
+    height: 100%;
     display: flex;
     justify-content: space-around;
     color: white;
@@ -144,6 +144,23 @@ footer {
 }
 
 .info-bottom li, .info li {
+    vertical-align: middle;
     text-align: center;
     padding: 1rem;
+}
+
+.img-pri {
+    z-index: 2;
+    position: relative;
+}
+
+.img-pri:hover {
+    display: none;
+}
+
+.img-hov {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
