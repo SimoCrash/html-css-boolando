@@ -10,3 +10,12 @@ header {
     height: 70px;
     width: 100%;
 }
+
+.container-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sex {
+    flex-direction: row;
+}
