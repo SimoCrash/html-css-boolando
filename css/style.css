@@ -11,11 +11,19 @@ header {
     width: 100%;
 }
 
-.container-top {
+.container-header {
     display: flex;
     justify-content: space-around;
 }
 
-.sex {
+.sex, .symbols, .logo-img {
+    list-style: none;
+    display: flex;
     flex-direction: row;
+    vertical-align: middle;
 }
+
+.logo {
+    height: 25px;
+}
+
