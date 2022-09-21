@@ -118,3 +118,32 @@ main img {
 .bot-sus {
     left: 0px;
 }
+
+footer {
+    background-color: #1A1A1A;
+    margin-top: 70px;
+}
+
+.container-footer {
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.info {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-bottom {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.info-bottom li, .info li {
+    text-align: center;
+    padding: 1rem;
+}
